@@ -1,0 +1,8 @@
+// glob: specifies which files should be compiled - (takes in an array of the files it should match) "includes" :"./search recursively through all sub directories/search for all files ending in ts"
+{
+  "extends": "../tsconfig.base",
+  "compilerOptions": {
+    "removeComments": true
+  },
+  "include": ["./**/*"]
+}
